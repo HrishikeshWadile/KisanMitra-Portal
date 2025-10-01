@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship / शिष्यवृत्ती माहिती</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            background-color: #f0f9f0;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4caf50, #81c784);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        .container-content {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .lang-btns {
+            text-align: right;
+            margin-bottom: 1rem;
+        }
+
+        .lang-btns button {
+            margin-left: 0.5rem;
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: #2e7d32;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>शिष्यवृत्ती आणि सरकारी योजना / Scholarship & Govt Schemes</h1>
+        </div>
+    </header>
+
+    <div class="container container-content">
+        <div class="lang-btns">
+            <button class="btn btn-success btn-sm" onclick="showLang('mar')">मराठी</button>
+            <button class="btn btn-primary btn-sm" onclick="showLang('eng')">English</button>
+        </div>
+
+        <!-- Marathi Content -->
+        <div id="mar" class="lang-content active">
+            <h2>पोस्ट मॅट्रिक शिष्यवृत्ती / फ्रीशिप</h2>
+            <p>SC/ST, VJNT/OBC/SBC वर्गातील विद्यार्थ्यांसाठी त्यांच्या कुटुंबाच्या उत्पन्नानुसार शिष्यवृत्ती आणि
+                फ्रीशिपची माहिती.</p>
+            <h4>आवश्यक दस्तऐवज:</h4>
+            <ul>
+                <li>SSC व HSC मार्कशीट</li>
+                <li>पूर्वीच्या शैक्षणिक वर्षाचे निकाल</li>
+                <li>डोमिसाईल आणि जात प्रमाणपत्र</li>
+                <li>कुटुंब उत्पन्न प्रमाणपत्र (मूलतः तहसीलदार/SDO द्वारे)</li>
+                <li>राशन कार्ड, आधार कार्ड, बँक पासबुक</li>
+                <li>नोटराइज्ड गॅप अ‍ॅफिडेव्हिट (गरज असल्यास)</li>
+                <li>इतर संबंधित प्रमाणपत्रे आणि शुल्क रसीद</li>
+            </ul>
+
+            <h2>राजर्षी छत्रपती शहू महाराज शिक्षण शुल्क शिष्यवृत्ती योजना (EBC)</h2>
+            <p>कुटुंबाचे वार्षिक उत्पन्न ८,००,०००/- पेक्षा कमी असलेले विद्यार्थी अर्ज करू शकतात. ५०% शुल्क सरकारद्वारे
+                भरले जाते. विद्यार्थी महाराष्ट्राचे डॉमिसाईल असणे आवश्यक.</p>
+
+            <h2>STC / PTC योजना</h2>
+            <p>प्राथमिक / माध्यमिक शिक्षकांचे पालक असलेले विद्यार्थी अर्ज करू शकतात.</p>
+
+            <h2>राज्य व राष्ट्रीय अल्पसंख्यांक शिष्यवृत्ती</h2>
+            <p>महाराष्ट्र राज्यातील अल्पसंख्यांक व राष्ट्रीय अल्पसंख्यांक समुदायातील विद्यार्थी यासाठी पात्र आहेत.
+                उत्पन्न मर्यादा महाराष्ट्र राज्य – ८,००,०००/- , राष्ट्रीय – २,००,०००/-.</p>
+
+            <h2>केंद्रीय व ओपन मेरिट शिष्यवृत्ती</h2>
+            <p>उच्च गुण मिळवलेल्या आणि कमी उत्पन्न असलेल्या विद्यार्थ्यांसाठी वित्तीय मदत.</p>
+
+            <h4>अधिक माहितीसाठी:</h4>
+            <ul>
+                <li><a href="https://scholarships.gov.in" target="_blank" rel="noopener">National Scholarship Portal</a>
+                </li>
+                <li><a href="http://www.dhepune.gov.in/scholarship/Open%20Merit%20Scholarship.htm" target="_blank"
+                        rel="noopener">Open
+                        Merit Scholarship</a></li>
+            </ul>
+        </div>
+
+        <!-- English Content -->
+        <div id="eng" class="lang-content">
+            <h2>Post Matric Scholarship / Freeship</h2>
+            <p>Information about scholarships and freeships for SC/ST, VJNT/OBC/SBC students based on family income.</p>
+            <h4>Required Documents:</h4>
+            <ul>
+                <li>SSC and HSC Mark Sheets</li>
+                <li>Results of previous academic year</li>
+                <li>Domicile and Caste Certificates</li>
+                <li>Income Certificate issued by Tahsildar / SDO</li>
+                <li>Ration Card, Aadhaar Card, Bank Passbook</li>
+                <li>Notarised Gap Affidavit (if applicable)</li>
+                <li>Other relevant certificates and fee receipt</li>
+            </ul>
+
+            <h2>Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulka Shishyavrutti Yojana (EBC)</h2>
+            <p>Students with family income below Rs. 8,00,000/- can apply. 50% of fees paid by Government of
+                Maharashtra. Student must be domicile of Maharashtra.</p>
+
+            <h2>STC / PTC Scheme</h2>
+            <p>Students whose parents are primary/secondary teachers can avail the benefit.</p>
+
+            <h2>State & National Minority Post Matric Scholarship</h2>
+            <p>Eligible for students from notified minority communities. Income limit Maharashtra – Rs. 8,00,000/-;
+                National – Rs. 2,00,000/-.</p>
+
+            <h2>Central Sector & Open Merit Scholarships</h2>
+            <p>Financial assistance for meritorious students from low-income families to meet part of day-to-day
+                expenses.</p>
+
+            <h4>More Info:</h4>
+            <ul>
+                <li><a href="https://scholarships.gov.in" target="_blank" rel="noopener">National Scholarship Portal</a>
+                </li>
+                <li><a href="http://www.dhepune.gov.in/scholarship/Open%20Merit%20Scholarship.htm" target="_blank"
+                        rel="noopener">Open
+                        Merit Scholarship</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 तुमची संस्था / NSS प्रकल्प. सर्व हक्क राखीव.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showLang(lang) {
+            document.getElementById('mar').classList.toggle('active', lang === 'mar');
+            document.getElementById('eng').classList.toggle('active', lang === 'eng');
+        }
+    </script>
+</body>
+
+</html>
